@@ -84,6 +84,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Bloco1.resx">
+      <DependentUpon>Bloco1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bloco2.resx">
+      <DependentUpon>Bloco2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bloco3.resx">
+      <DependentUpon>Bloco3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bloco4.resx">
+      <DependentUpon>Bloco4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pagina_Inicial.resx">
       <DependentUpon>Pagina_Inicial.cs</DependentUpon>
     </EmbeddedResource>

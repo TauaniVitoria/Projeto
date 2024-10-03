@@ -22,29 +22,36 @@ namespace WindowsFormsApp2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Bloco2 bloco_2 = new Bloco2();
-            bloco_2.Show();
             this.Hide();
+            Bloco2 bloco_2 = new Bloco2();
+            bloco_2.ShowDialog();
+            this.Show();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Bloco1 bloco_1 = new Bloco1();
-            bloco_1.Show();
             this.Hide();
+            Bloco1 bloco_1 = new Bloco1();
+            bloco_1.ShowDialog();
+            this.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Bloco3 bloco_3 = new Bloco3();
-            bloco_3.Show();
             this.Hide();
+            Bloco3 bloco_3 = new Bloco3();
+            bloco_3.ShowDialog();
+            this.Show();
+
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            Bloco4 bloco_4 = new Bloco4();
-            bloco_4.Show();
             this.Hide();
+            Bloco4 bloco_4 = new Bloco4();
+            bloco_4.ShowDialog();
+            this.Show();
+
         }
         private void Pag_Principal_Load(object sender, EventArgs e)
         {
@@ -77,6 +84,11 @@ namespace WindowsFormsApp2
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Pag_Principal_Load_1(object sender, EventArgs e)
         {
 
         }

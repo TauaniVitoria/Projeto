@@ -35,14 +35,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(69, 126);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.button1.Location = new System.Drawing.Point(34, 126);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(262, 135);
+            this.button1.Size = new System.Drawing.Size(193, 107);
             this.button1.TabIndex = 0;
             this.button1.Text = "Bloco 1";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,9 +54,11 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(346, 126);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.button2.Location = new System.Drawing.Point(255, 126);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(262, 135);
+            this.button2.Size = new System.Drawing.Size(208, 107);
             this.button2.TabIndex = 1;
             this.button2.Text = "Bloco 2";
             this.button2.UseVisualStyleBackColor = true;
@@ -60,9 +66,11 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(69, 267);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.button3.Location = new System.Drawing.Point(34, 267);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(262, 135);
+            this.button3.Size = new System.Drawing.Size(193, 110);
             this.button3.TabIndex = 2;
             this.button3.Text = "Bloco 3";
             this.button3.UseVisualStyleBackColor = true;
@@ -71,18 +79,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(308, 49);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(248, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 13);
+            this.label1.Size = new System.Drawing.Size(266, 37);
             this.label1.TabIndex = 4;
             this.label1.Text = "AquaConsciente";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(346, 267);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.button4.Location = new System.Drawing.Point(252, 267);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(262, 135);
+            this.button4.Size = new System.Drawing.Size(211, 110);
             this.button4.TabIndex = 5;
             this.button4.Text = "Bloco 4";
             this.button4.UseVisualStyleBackColor = true;
@@ -99,12 +110,24 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(501, 126);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(344, 251);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
+            // 
             // Pag_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(177)))), ((int)(((byte)(186)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label1);
@@ -113,8 +136,9 @@
             this.Controls.Add(this.button1);
             this.Name = "Pag_Principal";
             this.Text = "Pag_Inicial";
-            this.Load += new System.EventHandler(this.Pag_Principal_Load);
+            this.Load += new System.EventHandler(this.Pag_Principal_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,5 +152,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

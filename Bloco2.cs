@@ -16,5 +16,11 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            // Fecha o Form2, automaticamente voltando ao Form1
+            this.Close();
+        }
     }
 }
