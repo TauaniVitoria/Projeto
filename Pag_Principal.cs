@@ -16,8 +16,14 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
 
-            pictureBox1.MouseEnter += PictureBox1_MouseEnter;
-            pictureBox1.MouseLeave += PictureBox1_MouseLeave;
+            PictureBox[] pictureBoxes = { pictureBox1, pictureBox3, pictureBox4, pictureBox5, pictureBox6, pictureBox7 };
+
+            // Associando eventos MouseEnter e MouseLeave para todos os PictureBox
+            foreach (var pictureBox in pictureBoxes)
+            {
+                pictureBox.MouseEnter += PictureBox_MouseEnter;
+                pictureBox.MouseLeave += PictureBox_MouseLeave;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -68,19 +74,25 @@ namespace WindowsFormsApp2
         }
 
         // Quando o mouse entra na área do PictureBox
-        private void PictureBox1_MouseEnter(object sender, EventArgs e)
+        private void PictureBox_MouseEnter(object sender, EventArgs e)
         {
-            // Simular o efeito de destaque aumentando o PictureBox
-            pictureBox1.Size = new Size(pictureBox1.Width + 10, pictureBox1.Height + 10);
-            //pictureBox1.BorderStyle = BorderStyle.FixedSingle; // Adiciona uma borda
+            PictureBox pictureBox = sender as PictureBox;
+            if (pictureBox != null)
+            {
+                pictureBox.Size = new Size(pictureBox.Width + 10, pictureBox.Height + 10);
+                // Você pode adicionar mais efeitos visuais aqui, como bordas
+            }
         }
 
-        // Quando o mouse sai da área do PictureBox
-        private void PictureBox1_MouseLeave(object sender, EventArgs e)
+        // Evento para quando o mouse sai da área de qualquer PictureBox
+        private void PictureBox_MouseLeave(object sender, EventArgs e)
         {
-            // Restaurar o tamanho original
-            pictureBox1.Size = new Size(pictureBox1.Width - 10, pictureBox1.Height - 10);
-            //pictureBox1.BorderStyle = BorderStyle.None; // Remove a borda
+            PictureBox pictureBox = sender as PictureBox;
+            if (pictureBox != null)
+            {
+                pictureBox.Size = new Size(pictureBox.Width - 10, pictureBox.Height - 10);
+                // Remova o efeito visual aqui, se necessário
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -91,6 +103,52 @@ namespace WindowsFormsApp2
         private void Pag_Principal_Load_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            //bloco 1
+            this.Hide();
+            Bloco1 bloco_1 = new Bloco1();
+            bloco_1.ShowDialog();
+            this.Show();
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bloco2 bloco_2 = new Bloco2();
+            bloco_2.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bloco3 bloco_3 = new Bloco3();
+            bloco_3.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bloco4 bloco_4 = new Bloco4();
+            bloco_4.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Creditos creditos = new Creditos();
+            creditos.ShowDialog();
+            this.Show();
         }
     }
 }

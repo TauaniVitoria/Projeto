@@ -70,6 +70,12 @@
     <Compile Include="Bloco4.Designer.cs">
       <DependentUpon>Bloco4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pagina_Inicial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bloco4.resx">
       <DependentUpon>Bloco4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pagina_Inicial.resx">
       <DependentUpon>Pagina_Inicial.cs</DependentUpon>

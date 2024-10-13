@@ -16,6 +16,11 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
 
+            // Associar os eventos corretamente
+            pictureBox1.MouseEnter += PictureBox1_MouseEnter;
+            pictureBox1.MouseLeave += PictureBox1_MouseLeave;
+
+
             // Limpar o RichTextBox para adicionar o texto formatado
             richTextBox1.Clear();
 
@@ -92,6 +97,9 @@ namespace WindowsFormsApp2
             richTextBox1.SelectionFont = new Font("Arial", 10, FontStyle.Regular);
             richTextBox1.AppendText("A água é, sem dúvida, sustenta todas as formas de vida do planeta Terra. Suas propriedades químicas e físicas fazem dela um elemento único para a sobrevivência de todos os organismos vivos. Sua versatilidade e importância abrangem desde os níveis molecular, celular, orgânico e ecológico até as funções biológicas mais básicas nos organismos vivos, a regulação dos ecossistemas e a manutenção da sociedade humana.\n\n");
             richTextBox1.AppendText("Portanto, é imprescindível que medidas sejam tomadas para garantir o uso consciente e a preservação da água, assegurando que futuras gerações possam continuar a usufruir desse recurso tão valioso. A preservação da água é um compromisso com a vida.");
+
+            richTextBox1.SelectionStart = 0;
+            richTextBox1.ScrollToCaret();
         }
 
         private void Bloco1_Load(object sender, EventArgs e)
@@ -104,6 +112,22 @@ namespace WindowsFormsApp2
             // Fecha o Form2, automaticamente voltando ao Form1
             this.Close();
 
+        }
+
+        // Quando o mouse entra na área do PictureBox
+        private void PictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            // Simular o efeito de destaque aumentando o PictureBox
+            pictureBox1.Size = new Size(pictureBox1.Width + 10, pictureBox1.Height + 10);
+            //pictureBox1.BorderStyle = BorderStyle.FixedSingle; // Adiciona uma borda
+        }
+
+        // Quando o mouse sai da área do PictureBox
+        private void PictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            // Restaurar o tamanho original
+            pictureBox1.Size = new Size(pictureBox1.Width - 10, pictureBox1.Height - 10);
+            //pictureBox1.BorderStyle = BorderStyle.None; // Remove a borda
         }
     }
 }
