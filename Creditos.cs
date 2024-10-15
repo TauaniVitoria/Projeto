@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
             richTextBox1.SelectionFont = new Font("Segoe UI", 12, FontStyle.Regular);
             richTextBox1.AppendText("- Jhuliani Cristina Amorim dos Santos\n");
             richTextBox1.SelectionFont = new Font("Segoe UI", 12, FontStyle.Regular);
-            richTextBox1.AppendText("- Tauani ...\n");
+            richTextBox1.AppendText("- Tauani Vitória Ferreira\n");
             richTextBox1.SelectionFont = new Font("Segoe UI", 12, FontStyle.Regular);
             richTextBox1.AppendText("- Vitor ...\n");
 
@@ -72,6 +72,11 @@ namespace WindowsFormsApp2
             // Restaurar o tamanho original
             pictureBox3.Size = new Size(pictureBox3.Width - 10, pictureBox3.Height - 10);
             //pictureBox1.BorderStyle = BorderStyle.None; // Remove a borda
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
