@@ -47,7 +47,7 @@ namespace WindowsFormsApp2
             richTextBox1.SelectionFont = new Font("Segoe UI", 12, FontStyle.Regular);
             richTextBox1.AppendText("- Tauani Vitória Ferreira\n");
             richTextBox1.SelectionFont = new Font("Segoe UI", 12, FontStyle.Regular);
-            richTextBox1.AppendText("- Vitor ...\n");
+            richTextBox1.AppendText("- Vitor Prado...\n");
 
             richTextBox1.SelectionStart = 0;
             richTextBox1.ScrollToCaret();
