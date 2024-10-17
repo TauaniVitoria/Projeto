@@ -63,6 +63,7 @@
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Bloco1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bloco1";
             this.Load += new System.EventHandler(this.Bloco1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

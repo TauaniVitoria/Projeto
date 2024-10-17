@@ -51,6 +51,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Bloco2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bloco2";
             this.Load += new System.EventHandler(this.Bloco2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

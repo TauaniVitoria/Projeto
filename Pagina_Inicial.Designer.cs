@@ -66,6 +66,7 @@
             this.ClientSize = new System.Drawing.Size(964, 559);
             this.Controls.Add(this.panel1);
             this.Name = "Pagina_Inicial";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

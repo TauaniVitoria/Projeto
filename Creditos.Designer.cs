@@ -112,6 +112,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Creditos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Creditos";
             this.Load += new System.EventHandler(this.Creditos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
