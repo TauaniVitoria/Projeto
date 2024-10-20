@@ -54,6 +54,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(776, 365);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // Bloco1
             // 
@@ -66,7 +67,6 @@
             this.MaximizeBox = false;
             this.Name = "Bloco1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Bloco1";
             this.Load += new System.EventHandler(this.Bloco1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

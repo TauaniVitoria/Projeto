@@ -136,5 +136,10 @@ namespace WindowsFormsApp2
             pictureBox1.Size = new Size(pictureBox1.Width - 10, pictureBox1.Height - 10);
             //pictureBox1.BorderStyle = BorderStyle.None; // Remove a borda
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

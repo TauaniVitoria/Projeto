@@ -54,7 +54,6 @@
             this.MaximizeBox = false;
             this.Name = "Bloco2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Bloco2";
             this.Load += new System.EventHandler(this.Bloco2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
