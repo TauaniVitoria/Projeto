@@ -15,6 +15,7 @@ namespace WindowsFormsApp2
         public Bloco4()
         {
             InitializeComponent();
+            groupBox1.Focus();
 
             // Associar os eventos corretamente
             pictureBox1.MouseEnter += PictureBox1_MouseEnter;
@@ -129,12 +130,15 @@ namespace WindowsFormsApp2
             radioButton40.Enabled = false;
         }
 
+        int acertos = 0;
         // Alternativas da 1 pergunta
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton1.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resultado1.Text = "Incorreto!";
+                DesativarRadioButtons();
+                groupBox2.Focus();
             }
         }
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -143,21 +147,27 @@ namespace WindowsFormsApp2
             {
                 resultado1.Text = "Correto! H₂O é a composição da água.";
                 // Método que bloqueia todos os RadioButtons após a resposta correta
-                DesativarRadioButtons(); 
+                DesativarRadioButtons();
+                acertos++;
+                groupBox2.Focus();
             }
         }
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton3.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resultado1.Text = "Incorreto!";
+                DesativarRadioButtons();
+                groupBox2.Focus();
             }
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton4.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resultado1.Text = "Incorreto!";
+                DesativarRadioButtons();
+                groupBox2.Focus();
             }
         }
 
@@ -166,14 +176,18 @@ namespace WindowsFormsApp2
         {
             if (radioButton5.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta2.Text = "Incorreto!";
+                DesativarAlt_Pergunta2();
+                groupBox3.Focus();
             }
         }
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton6.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta2.Text = "Incorreto!";
+                DesativarAlt_Pergunta2();
+                groupBox3.Focus();
             }
         }
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
@@ -183,13 +197,17 @@ namespace WindowsFormsApp2
                 resposta2.Text = "Correto! Realizar a fotossíntese é a função principal atividade realizada pela água durante os processos metabólicos";
                 // Método que bloqueia todos os RadioButtons após a resposta correta
                 DesativarAlt_Pergunta2();
+                acertos++;
+                groupBox3.Focus();
             }
         }
         private void radioButton8_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton8.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta2.Text = "Incorreto!";
+                DesativarAlt_Pergunta2();
+                groupBox3.Focus();
             }
         }
 
@@ -198,14 +216,18 @@ namespace WindowsFormsApp2
         {
             if (radioButton9.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta3.Text = "Incorreto!";
+                DesativarAlt_Pergunta3();
+                groupBox4.Focus();
             }
         }
         private void radioButton10_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton10.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta3.Text = "Incorreto!";
+                DesativarAlt_Pergunta3();
+                groupBox4.Focus();
             }
         }
         private void radioButton11_CheckedChanged(object sender, EventArgs e)
@@ -214,13 +236,17 @@ namespace WindowsFormsApp2
             {
                 resposta3.Text = "Correto!";
                 DesativarAlt_Pergunta3();
+                acertos++;
+                groupBox4.Focus();
             }
         }
         private void radioButton12_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton12.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta3.Text = "Incorreto!";
+                DesativarAlt_Pergunta3();
+                groupBox4.Focus();
             }
         }
 
@@ -229,7 +255,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton13.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta4.Text = "Incorreto!";
+                DesativarAlt_Pergunta4();
+                groupBox5.Focus();
             }
         }
         private void radioButton14_CheckedChanged(object sender, EventArgs e)
@@ -238,20 +266,26 @@ namespace WindowsFormsApp2
             {
                 resposta4.Text = "Correto";
                 DesativarAlt_Pergunta4();
+                acertos++;
+                groupBox5.Focus();
             }
         }
         private void radioButton15_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton15.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta4.Text = "Incorreto!";
+                DesativarAlt_Pergunta4();
+                groupBox5.Focus();
             }
         }
         private void radioButton16_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton16.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta4.Text = "Incorreto!";
+                DesativarAlt_Pergunta4();
+                groupBox5.Focus();
             }
         }
 
@@ -260,7 +294,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton17.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta5.Text = "Incorreto!";
+                DesativarAlt_Pergunta5();
+                groupBox6.Focus();
             }
         }
         private void radioButton18_CheckedChanged(object sender, EventArgs e)
@@ -269,20 +305,26 @@ namespace WindowsFormsApp2
             {
                 resposta5.Text = "Correto";
                 DesativarAlt_Pergunta5();
+                acertos++;
+                groupBox6.Focus();
             }
         }
         private void radioButton19_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton19.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta5.Text = "Incorreto!";
+                DesativarAlt_Pergunta5();
+                groupBox6.Focus();
             }
         }
         private void radioButton20_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton20.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta5.Text = "Incorreto!";
+                DesativarAlt_Pergunta5();
+                groupBox6.Focus();
             }
         }
 
@@ -291,14 +333,18 @@ namespace WindowsFormsApp2
         {
             if (radioButton21.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta6.Text = "Incorreto!";
+                DesativarAlt_Pergunta6();
+                groupBox7.Focus();
             }
         }
         private void radioButton22_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton22.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta6.Text = "Incorreto!";
+                DesativarAlt_Pergunta6();
+                groupBox7.Focus();
             }
         }
         private void radioButton23_CheckedChanged(object sender, EventArgs e)
@@ -307,13 +353,17 @@ namespace WindowsFormsApp2
             {
                 resposta6.Text = "Correto!";
                 DesativarAlt_Pergunta6();
+                acertos++;
+                groupBox7.Focus();
             }
         }
         private void radioButton24_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton24.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta6.Text = "Incorreto!";
+                DesativarAlt_Pergunta6();
+                groupBox7.Focus();
             }
         }
 
@@ -322,7 +372,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton28.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta7.Text = "Incorreto!";
+                DesativarAlt_Pergunta7();
+                groupBox8.Focus();
             }
         }
         private void radioButton27_CheckedChanged(object sender, EventArgs e)
@@ -331,20 +383,26 @@ namespace WindowsFormsApp2
             {
                 resposta7.Text = "Correto";
                 DesativarAlt_Pergunta7();
+                acertos++;
+                groupBox8.Focus();
             }
         }
         private void radioButton26_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton26.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta7.Text = "Incorreto!";
+                DesativarAlt_Pergunta7();
+                groupBox8.Focus();
             }
         }
         private void radioButton25_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton25.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta7.Text = "Incorreto!";
+                DesativarAlt_Pergunta7();
+                groupBox8.Focus();
             }
         }
 
@@ -353,26 +411,34 @@ namespace WindowsFormsApp2
         {
             if (radioButton32.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta8.Text = "Incorreto!";
+                DesativarAlt_Pergunta8();
+                groupBox9.Focus();
             }
         }
         private void radioButton31_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton31.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta8.Text = "Incorreto!";
+                DesativarAlt_Pergunta8();
+                groupBox9.Focus();
             }
         }
         private void radioButton30_CheckedChanged(object sender, EventArgs e)
         {
             resposta8.Text = "Correto";
             DesativarAlt_Pergunta8();
+            acertos++;
+            groupBox9.Focus();
         }
         private void radioButton29_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton29.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta8.Text = "Incorreto!";
+                DesativarAlt_Pergunta8();
+                groupBox9.Focus();
             }
         }
 
@@ -381,26 +447,38 @@ namespace WindowsFormsApp2
         {
             if (radioButton36.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta9.Text = "Incorreto!";
+                DesativarAlt_Pergunta9();
+                groupBox10.Focus();
             }
         }
         private void radioButton35_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton35.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta9.Text = "Incorreto!";
+                DesativarAlt_Pergunta9();
+                groupBox10.Focus();
             }
         }
         private void radioButton34_CheckedChanged(object sender, EventArgs e)
         {
-            resposta9.Text = "Correto";
-            DesativarAlt_Pergunta9();
+            if (radioButton34.Checked)
+            {
+                resposta9.Text = "Correto";
+                DesativarAlt_Pergunta9();
+                acertos++;
+                groupBox10.Focus();
+            }
+            
         }
         private void radioButton33_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton33.Checked)
             {
-                MessageBox.Show("Incorreto! Mas você pode tentar novamente");
+                resposta9.Text = "Incorreto!";
+                DesativarAlt_Pergunta9();
+                groupBox10.Focus();
             }
         }
         
@@ -450,6 +528,24 @@ namespace WindowsFormsApp2
 
         }
 
+        private void groupBox11_Enter(object sender, EventArgs e)
+        {
+            string ac = acertos.ToString();
+            resultado.Text = $"{ac}";
+        }
+
+
+
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultado_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

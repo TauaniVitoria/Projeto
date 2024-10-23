@@ -102,6 +102,8 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.resultado = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -113,6 +115,7 @@
             this.groupBox8.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox10.SuspendLayout();
+            this.groupBox11.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -176,6 +179,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.resultado1);
             this.groupBox1.Controls.Add(this.radioButton1);
@@ -401,6 +405,7 @@
             this.groupBox4.TabIndex = 10;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "4";
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // resposta4
             // 
@@ -441,9 +446,9 @@
             this.radioButton14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.radioButton14.Location = new System.Drawing.Point(22, 69);
             this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(516, 24);
+            this.radioButton14.Size = new System.Drawing.Size(507, 24);
             this.radioButton14.TabIndex = 2;
-            this.radioButton14.Text = "b) Porque sua polaridade facilita a dissolução de muitas substâncias?";
+            this.radioButton14.Text = "b) Porque sua polaridade facilita a dissolução de muitas substâncias";
             this.radioButton14.UseVisualStyleBackColor = true;
             this.radioButton14.CheckedChanged += new System.EventHandler(this.radioButton14_CheckedChanged);
             // 
@@ -965,19 +970,42 @@
             // 
             // groupBox11
             // 
+            this.groupBox11.Controls.Add(this.richTextBox1);
+            this.groupBox11.Controls.Add(this.resultado);
             this.groupBox11.Location = new System.Drawing.Point(25, 2279);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Size = new System.Drawing.Size(738, 194);
             this.groupBox11.TabIndex = 17;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "groupBox11";
+            this.groupBox11.Enter += new System.EventHandler(this.groupBox11_Enter);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(6, 78);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(243, 35);
+            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Text = "Quantidade de acertos: ";
+            // 
+            // resultado
+            // 
+            this.resultado.AutoSize = true;
+            this.resultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resultado.Location = new System.Drawing.Point(274, 82);
+            this.resultado.Name = "resultado";
+            this.resultado.Size = new System.Drawing.Size(148, 24);
+            this.resultado.TabIndex = 0;
+            this.resultado.Text = "                       ";
+            this.resultado.Click += new System.EventHandler(this.resultado_Click);
             // 
             // Bloco4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox11);
             this.Controls.Add(this.groupBox10);
@@ -1018,6 +1046,8 @@
             this.groupBox9.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1098,5 +1128,7 @@
         private System.Windows.Forms.RadioButton radioButton40;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label resultado;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
