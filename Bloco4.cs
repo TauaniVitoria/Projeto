@@ -145,7 +145,7 @@ namespace WindowsFormsApp2
         {
             if (radioButton2.Checked)
             {
-                resultado1.Text = "Correto! H₂O é a composição da água.";
+                resultado1.Text = "Correto!";
                 // Método que bloqueia todos os RadioButtons após a resposta correta
                 DesativarRadioButtons();
                 acertos++;
@@ -194,7 +194,7 @@ namespace WindowsFormsApp2
         {
             if (radioButton7.Checked)
             {
-                resposta2.Text = "Correto! Realizar a fotossíntese é a função principal atividade realizada pela água durante os processos metabólicos";
+                resposta2.Text = "Correto";
                 // Método que bloqueia todos os RadioButtons após a resposta correta
                 DesativarAlt_Pergunta2();
                 acertos++;
@@ -481,8 +481,44 @@ namespace WindowsFormsApp2
                 groupBox10.Focus();
             }
         }
-        
-        
+
+        // alternativas da pergunta 10
+        private void radioButton40_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton40.Checked)
+            {
+                resposta10.Text = "Incorreto!";
+                DesativarAlt_Pergunta10();                 
+            }
+        }
+
+        private void radioButton39_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton39.Checked)
+            {
+                resposta10.Text = "Incorreto!";
+                DesativarAlt_Pergunta10();
+            }
+        }
+
+        private void radioButton38_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton38.Checked)
+            {
+                resposta10.Text = "Correto!";
+                DesativarAlt_Pergunta10();
+            }
+        }
+
+        private void radioButton37_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton37.Checked)
+            {
+                resposta10.Text = "Incorreto!";
+                DesativarAlt_Pergunta10();
+            }
+        }
+
         private void groupBox10_Enter(object sender, EventArgs e)
         {
 
@@ -543,6 +579,31 @@ namespace WindowsFormsApp2
         }
 
         private void resultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numb1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox8_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resposta5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

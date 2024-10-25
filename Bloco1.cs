@@ -25,14 +25,31 @@ namespace WindowsFormsApp2
             richTextBox1.Clear();
 
             // Título principal - Maior e em negrito
-            richTextBox1.SelectionFont = new Font("Arial", 14, FontStyle.Bold);
+            richTextBox1.SelectionFont = new Font("Aptos", 14, FontStyle.Bold);
             richTextBox1.AppendText("A Importância da Água e seu Papel Essencial para a Vida\n\n");
 
             // Texto comum - Fonte padrão
+            //richTextBox1.SelectionFont = new Font("Arial", 10, FontStyle.Regular);
+            //richTextBox1.AppendText("A água é uma substância química fundamental para a existência e a manutenção da vida no planeta Terra, este elemento é composto por duas moléculas de hidrogênio e uma de oxigênio, demonstrado na fórmula H₂O. Ela é encontrada em três estados físicos: no estado líquido, ela está presente nos rios, lagos, lençóis freáticos e principalmente nos mares e oceanos; no estado sólido ela se encontra na forma de geleiras e galopas polares, localizada nas regiões árticas e antárticas; e no estado gasoso pode ser encontrada como vapor na atmosfera terrestre.\n\n");
+            //richTextBox1.SelectionFont = new Font("Arial", 10, FontStyle.Regular);
+            //richTextBox1.AppendText("Nenhum ser vivo pode sobreviver sem a água, o que a torna um dos recursos mais valiosos do mundo. Desde os organismos mais simples até os mais complexos, todos dependem dela para realizar processos metabólicos e funções biológicas essenciais para sobrevivência. No corpo humano, a água representa cerca de 60% da massa corporal, enquanto em outros organismos, como plantas e algumas formas de vida aquática, essa proporção pode superar 90%. Além de ser um componente estrutural vital, a água serve como meio para as reações químicas que sustentam a vida. A falta de água interrompe essas funções metabólicas, resultando em morte celular e, consequentemente, na falência do organismo como um todo.\n\n");
+
             richTextBox1.SelectionFont = new Font("Arial", 10, FontStyle.Regular);
-            richTextBox1.AppendText("A água é uma substância química fundamental para a existência e a manutenção da vida no planeta Terra, este elemento é composto por duas moléculas de hidrogênio e uma de oxigênio, demonstrado na fórmula H₂O. Ela é encontrada em três estados físicos: no estado líquido, ela está presente nos rios, lagos, lençóis freáticos e principalmente nos mares e oceanos; no estado sólido ela se encontra na forma de geleiras e galopas polares, localizada nas regiões árticas e antárticas; e no estado gasoso pode ser encontrada como vapor na atmosfera terrestre.\n\n");
-            richTextBox1.SelectionFont = new Font("Arial", 10, FontStyle.Regular);
-            richTextBox1.AppendText("Nenhum ser vivo pode sobreviver sem a água, o que a torna um dos recursos mais valiosos do mundo. Desde os organismos mais simples até os mais complexos, todos dependem dela para realizar processos metabólicos e funções biológicas essenciais para sobrevivência. No corpo humano, a água representa cerca de 60% da massa corporal, enquanto em outros organismos, como plantas e algumas formas de vida aquática, essa proporção pode superar 90%. Além de ser um componente estrutural vital, a água serve como meio para as reações químicas que sustentam a vida. A falta de água interrompe essas funções metabólicas, resultando em morte celular e, consequentemente, na falência do organismo como um todo.\n\n");
+            richTextBox1.AppendText("A água é uma substância química fundamental para a existência e a manutenção da vida no planeta Terra...");
+
+            // Agora ajustamos o espaçamento entre as linhas
+            SetLineSpacing(richTextBox1, 10);  // Define espaçamento maior, como 1,5 no Word
+
+            richTextBox1.AppendText("Nenhum ser vivo pode sobreviver sem a água, o que a torna um dos recursos mais valiosos do mundo...");
+
+            // Função para ajustar o espaçamento entre linhas
+            void SetLineSpacing(RichTextBox rtb, int spacing)
+            {
+                rtb.SelectionStart = 0;
+                rtb.SelectionLength = rtb.Text.Length;
+                rtb.SelectionCharOffset = spacing; // Define o espaçamento como 15 (pode ajustar conforme desejado)
+            }
+
 
             // Subtítulo
             richTextBox1.SelectionFont = new Font("Arial", 12, FontStyle.Bold);
@@ -95,6 +112,8 @@ namespace WindowsFormsApp2
             richTextBox1.AppendText("Os ecossistemas aquáticos, como rios, lagos e oceanos, dependem diretamente da água para sustentar a biodiversidade. Peixes, plantas aquáticas, algas, anfíbios e uma vasta gama de organismos marinhos fazem parte dessas cadeias ecológicas. Esses ambientes fornecem alimentos, habitat, e auxiliam na manutenção do ciclo natural da água, além de influenciar no ciclo de nutrientes essenciais, como o carbono e nitrogênio.\n\n");
             richTextBox1.SelectionFont = new Font("Arial", 10, FontStyle.Regular);
             richTextBox1.AppendText("A água também desempenha um papel fundamental na regulação dos climas globais. Os oceanos atuam como grandes reguladores térmicos, absorvendo calor do sol e distribuindo-o de forma uniforme ao redor do planeta. Esse processo influencia padrões climáticos, como a formação de chuvas e tempestades, afetando diretamente as zonas terrestres e seus ecossistemas.\n\n");
+
+            // Inserir imagem
 
             // Conclusão
             richTextBox1.SelectionFont = new Font("Arial", 12, FontStyle.Bold);
