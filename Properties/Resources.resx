@@ -118,34 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="B3 conscientização2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B3 conscientização2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Group 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B3 conscientização1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B3 conscientização1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B3 conscientização" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B3 conscientização.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B5 dicas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B5 dicas2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B5 dicas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B5 dicas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B5 dicas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B5 dicas1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B4 aprendizado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B4 aprendizado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B4 aprendizado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B4 aprendizado1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="World water day (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World water day (2).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

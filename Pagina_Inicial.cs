@@ -25,7 +25,7 @@ namespace WindowsFormsApp2
         {
             Pag_Principal pag_Principal = new Pag_Principal();
             this.Hide();
-            pag_Principal.Show();
+            pag_Principal.Show();            
         }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)

@@ -12,11 +12,14 @@ namespace WindowsFormsApp2
 {
     public partial class Pag_Principal : Form
     {
+        private Boolean mostrepanelMenu1 = false;
+        private Boolean mostrepanelMenu2 = false;
         public Pag_Principal()
         {
             InitializeComponent();
+            tooglePanels();
 
-            PictureBox[] pictureBoxes = { pictureBox1, pictureBox3, pictureBox4, pictureBox5, pictureBox6, pictureBox7 };
+            /*PictureBox[] pictureBoxes = { pictureBox1, pictureBox3, pictureBox4, pictureBox5, pictureBox6, pictureBox7 };
 
             // Associando eventos MouseEnter e MouseLeave para todos os PictureBox
             foreach (var pictureBox in pictureBoxes)
@@ -24,8 +27,10 @@ namespace WindowsFormsApp2
                 pictureBox.MouseEnter += PictureBox_MouseEnter;
                 pictureBox.MouseLeave += PictureBox_MouseLeave;
             }
+            */
         }
 
+        /*
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -59,6 +64,10 @@ namespace WindowsFormsApp2
             this.Show();
 
         }
+
+
+        */
+
         private void Pag_Principal_Load(object sender, EventArgs e)
         {
 
@@ -105,6 +114,7 @@ namespace WindowsFormsApp2
 
         }
 
+        /*
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             //bloco 1
@@ -134,7 +144,9 @@ namespace WindowsFormsApp2
             bloco_3.ShowDialog();
             this.Show();
         }
+        */
 
+        // Abre o quiz
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -143,12 +155,89 @@ namespace WindowsFormsApp2
             this.Show();
         }
 
+
+        // Abre os créditos
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             this.Hide();
             Creditos creditos = new Creditos();
             creditos.ShowDialog();
             this.Show();
+        }
+
+
+        // Abre o bloco 1
+        private void button1_Click_1(object sender, EventArgs e)
+        {            
+            this.Hide();
+            Bloco1 bloco_1 = new Bloco1();
+            bloco_1.ShowDialog();
+            this.Show();
+        }
+
+        // Abre o bloco 2
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bloco2 bloco_2 = new Bloco2();
+            bloco_2.ShowDialog();
+            this.Show();
+        }
+        // Abre o bloco 3
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bloco3 bloco_3 = new Bloco3();
+            bloco_3.ShowDialog();
+            this.Show();
+        }
+
+        // Abre o menu 1
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            mostrepanelMenu1 = !mostrepanelMenu1;
+            tooglePanels();
+        }
+        private void tooglePanels()
+        {
+            if(mostrepanelMenu1)
+            {
+                panelMenu1.Height = 90;
+            }
+            else
+            {
+                panelMenu1.Height = 0;
+            }
+            
+            if (mostrepanelMenu2)
+            {
+                panelMenu2.Height = 90;
+            }
+            else
+            {
+                panelMenu2.Height = 0;
+            }
+        }
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            mostrepanelMenu1 = !mostrepanelMenu1;
+            tooglePanels();
+        }
+
+        // Abre o menu 2
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            mostrepanelMenu2 = !mostrepanelMenu2;
+            tooglePanels();
+        }        
+        private void pictureBox3_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
