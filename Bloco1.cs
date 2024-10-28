@@ -25,16 +25,16 @@ namespace WindowsFormsApp2
             richTextBox1.Clear();
 
             // Título principal - Maior e em negrito
-            richTextBox1.SelectionFont = new Font("Aptos", 14, FontStyle.Bold);
+            richTextBox1.SelectionFont = new Font("Helvetica", 16, FontStyle.Bold);
             richTextBox1.AppendText("A Importância da Água e seu Papel Essencial para a Vida\n\n");
 
             // Texto comum - Fonte padrão
-            //richTextBox1.SelectionFont = new Font("Arial", 10, FontStyle.Regular);
-            //richTextBox1.AppendText("A água é uma substância química fundamental para a existência e a manutenção da vida no planeta Terra, este elemento é composto por duas moléculas de hidrogênio e uma de oxigênio, demonstrado na fórmula H₂O. Ela é encontrada em três estados físicos: no estado líquido, ela está presente nos rios, lagos, lençóis freáticos e principalmente nos mares e oceanos; no estado sólido ela se encontra na forma de geleiras e galopas polares, localizada nas regiões árticas e antárticas; e no estado gasoso pode ser encontrada como vapor na atmosfera terrestre.\n\n");
-            //richTextBox1.SelectionFont = new Font("Arial", 10, FontStyle.Regular);
-            //richTextBox1.AppendText("Nenhum ser vivo pode sobreviver sem a água, o que a torna um dos recursos mais valiosos do mundo. Desde os organismos mais simples até os mais complexos, todos dependem dela para realizar processos metabólicos e funções biológicas essenciais para sobrevivência. No corpo humano, a água representa cerca de 60% da massa corporal, enquanto em outros organismos, como plantas e algumas formas de vida aquática, essa proporção pode superar 90%. Além de ser um componente estrutural vital, a água serve como meio para as reações químicas que sustentam a vida. A falta de água interrompe essas funções metabólicas, resultando em morte celular e, consequentemente, na falência do organismo como um todo.\n\n");
+            richTextBox1.SelectionFont = new Font("Roboto", 14, FontStyle.Regular);
+            richTextBox1.AppendText("A água é uma substância química fundamental para a existência e a manutenção da vida no planeta Terra, este elemento é composto por duas moléculas de hidrogênio e uma de oxigênio, demonstrado na fórmula H₂O. Ela é encontrada em três estados físicos: no estado líquido, ela está presente nos rios, lagos, lençóis freáticos e principalmente nos mares e oceanos; no estado sólido ela se encontra na forma de geleiras e galopas polares, localizada nas regiões árticas e antárticas; e no estado gasoso pode ser encontrada como vapor na atmosfera terrestre.\n\n");
+            richTextBox1.SelectionFont = new Font("Open Sans", 14, FontStyle.Regular);
+            richTextBox1.AppendText("Nenhum ser vivo pode sobreviver sem a água, o que a torna um dos recursos mais valiosos do mundo. Desde os organismos mais simples até os mais complexos, todos dependem dela para realizar processos metabólicos e funções biológicas essenciais para sobrevivência. No corpo humano, a água representa cerca de 60% da massa corporal, enquanto em outros organismos, como plantas e algumas formas de vida aquática, essa proporção pode superar 90%. Além de ser um componente estrutural vital, a água serve como meio para as reações químicas que sustentam a vida. A falta de água interrompe essas funções metabólicas, resultando em morte celular e, consequentemente, na falência do organismo como um todo.\n\n");
 
-            richTextBox1.SelectionFont = new Font("Arial", 10, FontStyle.Regular);
+            richTextBox1.SelectionFont = new Font("Lato", 14, FontStyle.Regular);
             richTextBox1.AppendText("A água é uma substância química fundamental para a existência e a manutenção da vida no planeta Terra...");
 
             // Agora ajustamos o espaçamento entre as linhas
@@ -52,7 +52,7 @@ namespace WindowsFormsApp2
 
 
             // Subtítulo
-            richTextBox1.SelectionFont = new Font("Arial", 12, FontStyle.Bold);
+            richTextBox1.SelectionFont = new Font("Montserrat", 12, FontStyle.Bold);
             richTextBox1.AppendText("A Composição da Vida - A Importância Biológica da Água\n\n");
 
             // Texto comum

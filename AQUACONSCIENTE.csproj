@@ -190,5 +190,14 @@
   <ItemGroup>
     <None Include="Resources\World water day %282%29.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\At the bathroom-amico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People taking care of plants.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

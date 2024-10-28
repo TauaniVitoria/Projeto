@@ -117,6 +117,42 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>A água é um recurso essencial para a vida de todos os seres vivos do planeta Terra. Por isso, reunimos algumas dicas e sugestões de práticas que podem ser adotadas para evitar o desperdício de água no seu cotidiano. </value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Situações inesperadas, como itens domésticos quebrados, exigem conserto imediato. Isso vale para vazamentos em torneiras, chuveiros e encanamentos, que além de aumentar o desperdício, acabam impactando no seu bolso, aumentando a conta de água ao longo do tempo. Mas como identificar um vazamento? 
+• Verifique se sua conta mensal subiu, mesmo sem aumentos significativos de consumo; 
+• Observe se há infiltrações, manchas de umidade ou odor de mofo nas paredes e nos pisos; 
+• Confira se as torneiras estão gotejando, mesmo quando elas estão fechadas. 
+Se ainda suspeitar de vazamentos faça o teste do café: 
+Coloque uma pequena quantidade de pó de café no seu vaso sanitário e deixe-o lá durante a noite. No dia seguinte, veja se o pó desapareceu ou diminuiu. Se isso acontecer, pode ser um sinal de vazamento na válvula ou na sua caixa acoplada. Caso o pó de café permaneça inalterado, provavelmente não há perdas de água. </value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>Prefira banhos rápidos, reduzindo o tempo embaixo do chuveiro e desligando-o enquanto ensaboa o corpo ou aplicar shampoo. Um banho de apenas 5 minutos pode economizar até 200 litros de água. Essas pequenas mudanças fazem uma grande diferença na preservação desse recurso essencial. </value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>Realizamos diversas atividades cotidianas que necessitam de água, afinal ela é o principal recurso para manter a higiene de uma residência e das pessoas. Dito isso, podemos adotar o hábito de fechar a torneira e utilizar baldes, a fim de minimizar o consumo de água durante essas atividades: 
+• Escovando os dentes: molhe a escova rapidamente, e desligue a torneira durante a escovação. Quando terminar use um copo de água para enxaguar; 
+• Lavando a louça: Antes de abrir a torneira, limpe restos de alimentos. Encha a pia ou uma bacia com água para ensaboar os itens com a torneira fechada. Depois, abra a torneira apenas para enxaguar. 
+• Limpando automóveis: primeiramente, a lavagem pode ser realizada com menos frequência, e quando necessária opte por um balde e um pano, o balde permite controlar melhor a quantidade de água consumida. </value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>Regue suas plantinhas pela manhã ou no final da tarde, evitando horários em que a insolação está no ápice, a fim de evitar a evaporação excessiva da água devido ao calor do sol. Além disso, escolha regadores em vez de mangueiras, minimizando a quantidade de água utilizada na irrigação. </value>
+  </data>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>Você pode armazenar a água da chuva em recipientes apropriados e reusá-la em algumas atividades com irrigar plantas, lavar a casa, o quintal ou o carro. Vale ressaltar que a água da chuva não é adequada para o consumo humano, pois ela ainda não passou pelo processo de tratamento recomendável. </value>
+  </data>
+  <data name="richTextBox7.Text" xml:space="preserve">
+    <value>Uma máquina de lavar é um dos eletrodomésticos mais importantes em uma residência, no entanto, seu uso excessivo gera um consumo desnecessário de água. Para evitar o desperdício, é importante limitar a utilização da máquina a cargas cheias, ou seja, aguarde até que ela esteja cheia de roupas para ligá-la. Além disso, sempre que possível, priorize os ciclos de lavagem que economizem água.
+Outra prática sustentável é reutilizar a água despejada pela lavadora pode ser reutilizada em outras atividades, como a limpeza do quintal, da calçada ou a lavagem de um automóvel. Essas medidas não apenas ajudam na conservação da água, mas também promovem a economia de energia elétrica, uma vez que a máquina consome uma grande quantidade desse recurso. </value>
+  </data>
+  <data name="richTextBox8.Text" xml:space="preserve">
+    <value>Redutor de vazão é um instrumento hidráulico capaz de diminuir a quantidade de água que sai de torneiras, duchas e chuveiros. Esse dispositivo limita a quantidade de água que sai por minuto, evitando desperdícios enquanto você realiza atividades cotidianas. </value>
+  </data>
+  <data name="richTextBox9.Text" xml:space="preserve">
+    <value>Ao adotar pequenas mudanças de hábitos e ao ser mais consciente no uso da água, você contribui para a preservação desse recurso e ainda reduz alguns gastos mensais em casa. Incorporar essas práticas de economia no dia a dia é uma forma eficaz de promover.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
