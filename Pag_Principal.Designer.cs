@@ -130,6 +130,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(364, 84);
             this.panel3.TabIndex = 19;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // iconButton1
             // 
@@ -213,7 +214,7 @@
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSeaGreen;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(8, 7);
+            this.button3.Location = new System.Drawing.Point(-3, 9);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(368, 72);
             this.button3.TabIndex = 17;
@@ -244,7 +245,7 @@
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.Location = new System.Drawing.Point(-4, 3);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(365, 72);
+            this.iconButton2.Size = new System.Drawing.Size(369, 72);
             this.iconButton2.TabIndex = 0;
             this.iconButton2.UseVisualStyleBackColor = true;
             this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
