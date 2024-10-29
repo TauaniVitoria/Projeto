@@ -165,6 +165,14 @@ namespace WindowsFormsApp2
             this.Show();
         }
 
+        // Abre o bloco 5 (hidrometro)
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bloco5 bloco_5 = new Bloco5();
+            bloco_5.ShowDialog();
+            this.Show();
+        }
 
         // Abre o bloco 1
         private void button1_Click_1(object sender, EventArgs e)
@@ -239,5 +247,7 @@ namespace WindowsFormsApp2
         {
 
         }
+
+
     }
 }

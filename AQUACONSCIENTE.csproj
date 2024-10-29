@@ -77,6 +77,12 @@
     <Compile Include="Bloco4.Designer.cs">
       <DependentUpon>Bloco4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bloco5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bloco5.Designer.cs">
+      <DependentUpon>Bloco5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Creditos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bloco4.resx">
       <DependentUpon>Bloco4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bloco5.resx">
+      <DependentUpon>Bloco5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Creditos.resx">
       <DependentUpon>Creditos.cs</DependentUpon>
@@ -198,6 +207,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\People taking care of plants.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\left-arrow2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
