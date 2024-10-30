@@ -47,13 +47,13 @@
             this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // title0
@@ -68,16 +68,19 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BackColor = System.Drawing.Color.White;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(7, 70);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(953, 69);
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
             // richTextBox2
             // 
+            this.richTextBox2.BackColor = System.Drawing.Color.White;
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox2.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox2.Location = new System.Drawing.Point(17, 181);
@@ -88,6 +91,7 @@
             // 
             // richTextBox3
             // 
+            this.richTextBox3.BackColor = System.Drawing.Color.White;
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox3.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox3.Location = new System.Drawing.Point(17, 455);
@@ -129,10 +133,12 @@
             // 
             // richTextBox4
             // 
+            this.richTextBox4.BackColor = System.Drawing.Color.White;
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox4.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox4.Location = new System.Drawing.Point(17, 571);
             this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(948, 226);
             this.richTextBox4.TabIndex = 8;
             this.richTextBox4.Text = resources.GetString("richTextBox4.Text");
@@ -237,6 +243,28 @@
             this.richTextBox9.TabIndex = 20;
             this.richTextBox9.Text = resources.GetString("richTextBox9.Text");
             // 
+            // richTextBox10
+            // 
+            this.richTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox10.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox10.Location = new System.Drawing.Point(17, 1827);
+            this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.Size = new System.Drawing.Size(34, 37);
+            this.richTextBox10.TabIndex = 24;
+            this.richTextBox10.Text = "";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(1, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -258,28 +286,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(373, 384);
             this.pictureBox2.TabIndex = 22;
             this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // richTextBox10
-            // 
-            this.richTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox10.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox10.Location = new System.Drawing.Point(17, 1827);
-            this.richTextBox10.Name = "richTextBox10";
-            this.richTextBox10.Size = new System.Drawing.Size(34, 37);
-            this.richTextBox10.TabIndex = 24;
-            this.richTextBox10.Text = "";
             // 
             // Bloco3
             // 
@@ -317,9 +323,9 @@
             this.Name = "Bloco3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Bloco3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

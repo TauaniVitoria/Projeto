@@ -1075,6 +1075,7 @@
             // 
             // radioButton37
             // 
+            this.radioButton37.AutoCheck = false;
             this.radioButton37.AutoSize = true;
             this.radioButton37.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton37.Location = new System.Drawing.Point(6, 166);
@@ -1088,6 +1089,7 @@
             // 
             // radioButton38
             // 
+            this.radioButton38.AutoCheck = false;
             this.radioButton38.AutoSize = true;
             this.radioButton38.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton38.Location = new System.Drawing.Point(6, 133);
@@ -1101,6 +1103,7 @@
             // 
             // radioButton39
             // 
+            this.radioButton39.AutoCheck = false;
             this.radioButton39.AutoSize = true;
             this.radioButton39.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton39.Location = new System.Drawing.Point(6, 100);
@@ -1114,6 +1117,7 @@
             // 
             // radioButton40
             // 
+            this.radioButton40.AutoCheck = false;
             this.radioButton40.AutoSize = true;
             this.radioButton40.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton40.Location = new System.Drawing.Point(6, 67);

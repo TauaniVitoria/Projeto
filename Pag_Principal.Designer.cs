@@ -47,7 +47,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.bntCreditos = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -62,7 +62,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -285,23 +285,25 @@
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.pictureBox7);
+            this.panel10.Controls.Add(this.bntCreditos);
             this.panel10.Location = new System.Drawing.Point(3, 568);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(363, 80);
             this.panel10.TabIndex = 21;
+            this.panel10.Resize += new System.EventHandler(this.panel10_Resize);
             // 
-            // pictureBox7
+            // bntCreditos
             // 
-            this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Location = new System.Drawing.Point(127, 12);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(80, 68);
-            this.pictureBox7.TabIndex = 13;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.bntCreditos.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.bntCreditos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bntCreditos.BackgroundImage")));
+            this.bntCreditos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bntCreditos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bntCreditos.Location = new System.Drawing.Point(127, 12);
+            this.bntCreditos.Name = "bntCreditos";
+            this.bntCreditos.Size = new System.Drawing.Size(80, 68);
+            this.bntCreditos.TabIndex = 13;
+            this.bntCreditos.TabStop = false;
+            this.bntCreditos.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // panel4
             // 
@@ -356,7 +358,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
@@ -365,7 +367,7 @@
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox bntCreditos;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;

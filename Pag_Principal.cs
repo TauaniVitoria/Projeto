@@ -28,6 +28,8 @@ namespace WindowsFormsApp2
                 pictureBox.MouseLeave += PictureBox_MouseLeave;
             }
             */
+
+
         }
 
         /*
@@ -178,7 +180,7 @@ namespace WindowsFormsApp2
         private void button1_Click_1(object sender, EventArgs e)
         {            
             this.Hide();
-            Bloco1 bloco_1 = new Bloco1();
+            Bloco01 bloco_1 = new Bloco01();
             bloco_1.ShowDialog();
             this.Show();
         }
@@ -252,5 +254,13 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void panel10_Resize(object sender, EventArgs e)
+        {
+            
+        }
+
+        
+
     }
 }

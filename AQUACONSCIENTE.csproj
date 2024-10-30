@@ -53,11 +53,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bloco1.cs">
+    <Compile Include="Bloco01.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bloco1.Designer.cs">
-      <DependentUpon>Bloco1.cs</DependentUpon>
+    <Compile Include="Bloco01.Designer.cs">
+      <DependentUpon>Bloco01.cs</DependentUpon>
     </Compile>
     <Compile Include="Bloco2.cs">
       <SubType>Form</SubType>
@@ -103,8 +103,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Bloco1.resx">
-      <DependentUpon>Bloco1.cs</DependentUpon>
+    <EmbeddedResource Include="Bloco01.resx">
+      <DependentUpon>Bloco01.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bloco2.resx">
       <DependentUpon>Bloco2.cs</DependentUpon>
@@ -210,6 +210,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="imagens\left-arrow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\left-arrow3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
