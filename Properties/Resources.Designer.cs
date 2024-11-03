@@ -343,6 +343,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap love_letter_15736379 {
+            get {
+                object obj = ResourceManager.GetObject("love-letter_15736379", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap People_taking_care_of_plants {
             get {
                 object obj = ResourceManager.GetObject("People taking care of plants", resourceCulture);

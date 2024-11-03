@@ -209,7 +209,18 @@ namespace WindowsFormsApp2
             mostrepanelMenu1 = !mostrepanelMenu1;
             tooglePanels();
 
-           
+            
+            if (mostrepanelMenu1)
+            {
+                iconButton1.BackgroundImage = Resources.B3conscientizaçãoBaixo; 
+                iconButton1.BackgroundImageLayout = ImageLayout.Zoom;
+            }
+            else
+            {
+                iconButton1.BackgroundImage = Resources.B3_conscientização2; 
+                iconButton1.BackgroundImageLayout = ImageLayout.Zoom;
+            }
+
         }
         private void tooglePanels()
         {
@@ -242,6 +253,17 @@ namespace WindowsFormsApp2
         {
             mostrepanelMenu2 = !mostrepanelMenu2;
             tooglePanels();
+
+            if (mostrepanelMenu2)
+            {
+                iconButton2.BackgroundImage = Resources.B4aprendizadoBaixo; 
+                iconButton2.BackgroundImageLayout = ImageLayout.Zoom;
+            }
+            else
+            {
+                iconButton2.BackgroundImage = Resources.B4_aprendizado1; 
+                iconButton2.BackgroundImageLayout = ImageLayout.Zoom;
+            }
         }        
         private void pictureBox3_Click_2(object sender, EventArgs e)
         {

@@ -15,12 +15,23 @@ namespace WindowsFormsApp2
         public Bloco4()
         {
             InitializeComponent();
-            groupBox1.Focus();
+           
 
             // Associar os eventos corretamente
             pictureBox1.MouseEnter += PictureBox1_MouseEnter;
             pictureBox1.MouseLeave += PictureBox1_MouseLeave;
+
+             // Associa o evento Shown para garantir que a rolagem comece no topo
+            this.Shown += new EventHandler(Bloco4_Shown);
         }
+
+        private void Bloco4_Shown(object sender, EventArgs e)
+        {
+            // Define a posição da rolagem para o topo
+            this.AutoScrollPosition = new Point(0, 0);
+            this.groupBox1.Focus(); // Foca no primeiro botão para garantir a rolagem no topo
+        }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -29,7 +40,7 @@ namespace WindowsFormsApp2
 
         private void Bloco4_Load(object sender, EventArgs e)
         {
-
+            groupBox1.Focus();
         }
 
         // Quando o mouse entra na área do PictureBox
@@ -136,9 +147,10 @@ namespace WindowsFormsApp2
         {
             if (radioButton1.Checked)
             {
-                resultado1.Text = "Incorreto!";
+                resultado1.Text = "Incorreto! A resposta correta é opção b";
                 DesativarRadioButtons();
-                groupBox2.Focus();
+                this.AutoScrollPosition = new Point(0, 0);
+                this.groupBox1.Focus();
             }
         }
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -149,25 +161,28 @@ namespace WindowsFormsApp2
                 // Método que bloqueia todos os RadioButtons após a resposta correta
                 DesativarRadioButtons();
                 acertos++;
-                groupBox2.Focus();
+                this.AutoScrollPosition = new Point(0, 0);
+                this.groupBox1.Focus();
             }
         }
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton3.Checked)
             {
-                resultado1.Text = "Incorreto!";
+                resultado1.Text = "Incorreto! A resposta correta é opção b";
                 DesativarRadioButtons();
-                groupBox2.Focus();
+                this.AutoScrollPosition = new Point(0, 0);
+                this.groupBox1.Focus();
             }
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton4.Checked)
             {
-                resultado1.Text = "Incorreto!";
+                resultado1.Text = "Incorreto! A resposta correta é opção b";
                 DesativarRadioButtons();
-                groupBox2.Focus();
+                this.AutoScrollPosition = new Point(0, 0);
+                this.groupBox1.Focus();
             }
         }
 
@@ -176,18 +191,18 @@ namespace WindowsFormsApp2
         {
             if (radioButton5.Checked)
             {
-                resposta2.Text = "Incorreto!";
+                resposta2.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta2();
-                groupBox3.Focus();
+                groupBox2.Focus();
             }
         }
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton6.Checked)
             {
-                resposta2.Text = "Incorreto!";
+                resposta2.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta2();
-                groupBox3.Focus();
+                groupBox2.Focus();
             }
         }
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
@@ -198,16 +213,16 @@ namespace WindowsFormsApp2
                 // Método que bloqueia todos os RadioButtons após a resposta correta
                 DesativarAlt_Pergunta2();
                 acertos++;
-                groupBox3.Focus();
+                groupBox2.Focus();
             }
         }
         private void radioButton8_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton8.Checked)
             {
-                resposta2.Text = "Incorreto!";
+                resposta2.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta2();
-                groupBox3.Focus();
+                groupBox2.Focus();
             }
         }
 
@@ -216,18 +231,18 @@ namespace WindowsFormsApp2
         {
             if (radioButton9.Checked)
             {
-                resposta3.Text = "Incorreto!";
+                resposta3.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta3();
-                groupBox4.Focus();
+                groupBox3.Focus();
             }
         }
         private void radioButton10_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton10.Checked)
             {
-                resposta3.Text = "Incorreto!";
+                resposta3.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta3();
-                groupBox4.Focus();
+                groupBox3.Focus();
             }
         }
         private void radioButton11_CheckedChanged(object sender, EventArgs e)
@@ -237,16 +252,16 @@ namespace WindowsFormsApp2
                 resposta3.Text = "Correto!";
                 DesativarAlt_Pergunta3();
                 acertos++;
-                groupBox4.Focus();
+                groupBox3.Focus();
             }
         }
         private void radioButton12_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton12.Checked)
             {
-                resposta3.Text = "Incorreto!";
+                resposta3.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta3();
-                groupBox4.Focus();
+                groupBox3.Focus();
             }
         }
 
@@ -255,9 +270,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton13.Checked)
             {
-                resposta4.Text = "Incorreto!";
+                resposta4.Text = "Incorreto! A resposta correta é opção b";
                 DesativarAlt_Pergunta4();
-                groupBox5.Focus();
+                groupBox4.Focus();
             }
         }
         private void radioButton14_CheckedChanged(object sender, EventArgs e)
@@ -267,25 +282,25 @@ namespace WindowsFormsApp2
                 resposta4.Text = "Correto";
                 DesativarAlt_Pergunta4();
                 acertos++;
-                groupBox5.Focus();
+                groupBox4.Focus();
             }
         }
         private void radioButton15_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton15.Checked)
             {
-                resposta4.Text = "Incorreto!";
+                resposta4.Text = "Incorreto! A resposta correta é opção b";
                 DesativarAlt_Pergunta4();
-                groupBox5.Focus();
+                groupBox4.Focus();
             }
         }
         private void radioButton16_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton16.Checked)
             {
-                resposta4.Text = "Incorreto!";
+                resposta4.Text = "Incorreto! A resposta correta é opção b";
                 DesativarAlt_Pergunta4();
-                groupBox5.Focus();
+                groupBox4.Focus();
             }
         }
 
@@ -294,9 +309,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton17.Checked)
             {
-                resposta5.Text = "Incorreto!";
+                resposta5.Text = "Incorreto! A resposta correta é opção b";
                 DesativarAlt_Pergunta5();
-                groupBox6.Focus();
+                groupBox5.Focus();
             }
         }
         private void radioButton18_CheckedChanged(object sender, EventArgs e)
@@ -306,25 +321,25 @@ namespace WindowsFormsApp2
                 resposta5.Text = "Correto";
                 DesativarAlt_Pergunta5();
                 acertos++;
-                groupBox6.Focus();
+                groupBox5.Focus();
             }
         }
         private void radioButton19_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton19.Checked)
             {
-                resposta5.Text = "Incorreto!";
+                resposta5.Text = "Incorreto! A resposta correta é opção b";
                 DesativarAlt_Pergunta5();
-                groupBox6.Focus();
+                groupBox5.Focus();
             }
         }
         private void radioButton20_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton20.Checked)
             {
-                resposta5.Text = "Incorreto!";
+                resposta5.Text = "Incorreto! A resposta correta é opção b";
                 DesativarAlt_Pergunta5();
-                groupBox6.Focus();
+                groupBox5.Focus();
             }
         }
 
@@ -333,18 +348,18 @@ namespace WindowsFormsApp2
         {
             if (radioButton21.Checked)
             {
-                resposta6.Text = "Incorreto!";
+                resposta6.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta6();
-                groupBox7.Focus();
+                groupBox6.Focus();
             }
         }
         private void radioButton22_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton22.Checked)
             {
-                resposta6.Text = "Incorreto!";
+                resposta6.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta6();
-                groupBox7.Focus();
+                groupBox6.Focus();
             }
         }
         private void radioButton23_CheckedChanged(object sender, EventArgs e)
@@ -354,16 +369,16 @@ namespace WindowsFormsApp2
                 resposta6.Text = "Correto!";
                 DesativarAlt_Pergunta6();
                 acertos++;
-                groupBox7.Focus();
+                groupBox6.Focus();
             }
         }
         private void radioButton24_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton24.Checked)
             {
-                resposta6.Text = "Incorreto!";
+                resposta6.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta6();
-                groupBox7.Focus();
+                groupBox6.Focus();
             }
         }
 
@@ -372,9 +387,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton28.Checked)
             {
-                resposta7.Text = "Incorreto!";
+                resposta7.Text = "Incorreto! A resposta correta é opção b";
                 DesativarAlt_Pergunta7();
-                groupBox8.Focus();
+                groupBox7.Focus();
             }
         }
         private void radioButton27_CheckedChanged(object sender, EventArgs e)
@@ -384,25 +399,25 @@ namespace WindowsFormsApp2
                 resposta7.Text = "Correto";
                 DesativarAlt_Pergunta7();
                 acertos++;
-                groupBox8.Focus();
+                groupBox7.Focus();
             }
         }
         private void radioButton26_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton26.Checked)
             {
-                resposta7.Text = "Incorreto!";
+                resposta7.Text = "Incorreto! A resposta correta é opção b";
                 DesativarAlt_Pergunta7();
-                groupBox8.Focus();
+                groupBox7.Focus();
             }
         }
         private void radioButton25_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton25.Checked)
             {
-                resposta7.Text = "Incorreto!";
+                resposta7.Text = "Incorreto! A resposta correta é opção b";
                 DesativarAlt_Pergunta7();
-                groupBox8.Focus();
+                groupBox7.Focus();
             }
         }
 
@@ -411,18 +426,18 @@ namespace WindowsFormsApp2
         {
             if (radioButton32.Checked)
             {
-                resposta8.Text = "Incorreto!";
+                resposta8.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta8();
-                groupBox9.Focus();
+                groupBox8.Focus();
             }
         }
         private void radioButton31_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton31.Checked)
             {
-                resposta8.Text = "Incorreto!";
+                resposta8.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta8();
-                groupBox9.Focus();
+                groupBox8.Focus();
             }
         }
         private void radioButton30_CheckedChanged(object sender, EventArgs e)
@@ -430,15 +445,15 @@ namespace WindowsFormsApp2
             resposta8.Text = "Correto";
             DesativarAlt_Pergunta8();
             acertos++;
-            groupBox9.Focus();
+            groupBox8.Focus();
         }
         private void radioButton29_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton29.Checked)
             {
-                resposta8.Text = "Incorreto!";
+                resposta8.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta8();
-                groupBox9.Focus();
+                groupBox8.Focus();
             }
         }
 
@@ -447,18 +462,18 @@ namespace WindowsFormsApp2
         {
             if (radioButton36.Checked)
             {
-                resposta9.Text = "Incorreto!";
+                resposta9.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta9();
-                groupBox10.Focus();
+                groupBox9.Focus();
             }
         }
         private void radioButton35_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton35.Checked)
             {
-                resposta9.Text = "Incorreto!";
+                resposta9.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta9();
-                groupBox10.Focus();
+                groupBox9.Focus();
             }
         }
         private void radioButton34_CheckedChanged(object sender, EventArgs e)
@@ -468,7 +483,7 @@ namespace WindowsFormsApp2
                 resposta9.Text = "Correto";
                 DesativarAlt_Pergunta9();
                 acertos++;
-                groupBox10.Focus();
+                groupBox9.Focus();
             }
             
         }
@@ -476,9 +491,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton33.Checked)
             {
-                resposta9.Text = "Incorreto!";
+                resposta9.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta9();
-                groupBox10.Focus();
+                groupBox9.Focus();
             }
         }
 
@@ -487,8 +502,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton40.Checked)
             {
-                resposta10.Text = "Incorreto!";
-                DesativarAlt_Pergunta10();                 
+                resposta10.Text = "Incorreto! A resposta correta é opção c";
+                DesativarAlt_Pergunta10();
+                this.groupBox11_Enter();
             }
         }
 
@@ -496,8 +512,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton39.Checked)
             {
-                resposta10.Text = "Incorreto!";
+                resposta10.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta10();
+                this.groupBox11_Enter();
             }
         }
 
@@ -507,6 +524,7 @@ namespace WindowsFormsApp2
             {
                 resposta10.Text = "Correto!";
                 DesativarAlt_Pergunta10();
+                this.groupBox11_Enter();
             }
         }
 
@@ -514,8 +532,9 @@ namespace WindowsFormsApp2
         {
             if (radioButton37.Checked)
             {
-                resposta10.Text = "Incorreto!";
+                resposta10.Text = "Incorreto! A resposta correta é opção c";
                 DesativarAlt_Pergunta10();
+                this.groupBox11_Enter();
             }
         }
 
@@ -564,7 +583,7 @@ namespace WindowsFormsApp2
 
         }
 
-        private void groupBox11_Enter(object sender, EventArgs e)
+        private void groupBox11_Enter()
         {
             string ac = acertos.ToString();
             resultado.Text = $"{ac}";
@@ -604,6 +623,11 @@ namespace WindowsFormsApp2
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox11_Enter(object sender, EventArgs e)
         {
 
         }
