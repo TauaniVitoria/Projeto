@@ -148,14 +148,11 @@
   <data name="Group 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="left-arrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagens\left-arrow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="B3 conscientização" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B3 conscientização.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="B3 conscientização1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\B3 conscientização1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="B5 dicas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B5 dicas1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,11 +163,17 @@
   <data name="Group 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="B3 conscientização1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B3 conscientização1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Group 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="B4 aprendizado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B4 aprendizado1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left-arrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens\left-arrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="B4 aprendizado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B4 aprendizado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,14 +190,14 @@
   <data name="B2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="People taking care of plants" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\People taking care of plants.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="left-arrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens\left-arrow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="At the bathroom-amico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\At the bathroom-amico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +205,10 @@
   <data name="B5 dicas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B5 dicas2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="left-arrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagens\left-arrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B3conscientizaçãoBaixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B3conscientizaçãoBaixo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B4aprendizadoBaixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B4aprendizadoBaixo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

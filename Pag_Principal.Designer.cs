@@ -295,7 +295,6 @@
             // bntCreditos
             // 
             this.bntCreditos.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.bntCreditos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bntCreditos.BackgroundImage")));
             this.bntCreditos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.bntCreditos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bntCreditos.Location = new System.Drawing.Point(127, 12);

@@ -153,6 +153,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap B3conscientizaçãoBaixo {
+            get {
+                object obj = ResourceManager.GetObject("B3conscientizaçãoBaixo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap B4_aprendizado {
             get {
                 object obj = ResourceManager.GetObject("B4 aprendizado", resourceCulture);
@@ -166,6 +176,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap B4_aprendizado1 {
             get {
                 object obj = ResourceManager.GetObject("B4 aprendizado1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap B4aprendizadoBaixo {
+            get {
+                object obj = ResourceManager.GetObject("B4aprendizadoBaixo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
