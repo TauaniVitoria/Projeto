@@ -46,8 +46,6 @@ namespace WindowsFormsApp2
             richTextBox1.AppendText("Jhuliani Cristina Amorim dos Santos\n");
             richTextBox1.SelectionFont = new Font("Bahnschrift", 14, FontStyle.Regular);
             richTextBox1.AppendText("Tauani Vitória Ferreira\n");
-            richTextBox1.SelectionFont = new Font("Bahnschrift", 14, FontStyle.Regular);
-            richTextBox1.AppendText("Vitor Prado\n");
 
             richTextBox1.SelectionStart = 0;
             richTextBox1.ScrollToCaret();

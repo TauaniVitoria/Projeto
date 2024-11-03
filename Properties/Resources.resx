@@ -163,14 +163,23 @@
   <data name="Group 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="B4aprendizadoBaixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B4aprendizadoBaixo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Group 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B3conscientizaçãoBaixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B3conscientizaçãoBaixo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="B4 aprendizado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B4 aprendizado1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left-arrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens\left-arrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="B4 aprendizado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B4 aprendizado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +211,7 @@
   <data name="B5 dicas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B5 dicas2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="left-arrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagens\left-arrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="love-letter_15736379" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens\love-letter_15736379.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
