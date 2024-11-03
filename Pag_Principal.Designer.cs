@@ -33,7 +33,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panelMenu1 = new System.Windows.Forms.Panel();
@@ -53,7 +52,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panelMenu1.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -105,21 +103,10 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.label1);
             this.panel7.Location = new System.Drawing.Point(3, 59);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(363, 41);
             this.panel7.TabIndex = 20;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(141, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "MENU PRINCIPAL";
             // 
             // panel3
             // 
@@ -348,8 +335,6 @@
             this.Load += new System.EventHandler(this.Pag_Principal_Load_1);
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panelMenu1.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
@@ -384,7 +369,6 @@
         private System.Windows.Forms.Panel panel9;
         private FontAwesome.Sharp.IconButton iconButton2;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
