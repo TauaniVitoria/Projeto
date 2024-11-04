@@ -28,23 +28,23 @@ namespace WindowsFormsApp2
 
             // Adicionar o título da disciplina com formatação em negrito
             richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
-            richTextBox1.SelectionFont = new Font("Bahnschrift", 18, FontStyle.Bold); // Aumentar o tamanho da fonte
+            richTextBox1.SelectionFont = new Font("Bahnschrift", 16, FontStyle.Bold); // Aumentar o tamanho da fonte
             richTextBox1.AppendText("Disciplina: Programação de Computadores\n\n");
 
 
             // Nome do professor
             richTextBox1.SelectionFont = new Font("Bahnschrift", 16, FontStyle.Bold);
             richTextBox1.AppendText("Nome do professor: ");
-            richTextBox1.SelectionFont = new Font("Bahnschrift", 14, FontStyle.Regular);
+            richTextBox1.SelectionFont = new Font("Bahnschrift", 16, FontStyle.Regular);
             richTextBox1.AppendText("Prof. Dr. Elvio Gilberto da Silva.\n\n");
 
            
             // Integrantes da equipe
             richTextBox1.SelectionFont = new Font("Bahnschrift", 16, FontStyle.Bold);
             richTextBox1.AppendText("Integrantes da equipe:\n");
-            richTextBox1.SelectionFont = new Font("Bahnschrift", 14, FontStyle.Regular);
+            richTextBox1.SelectionFont = new Font("Bahnschrift", 16, FontStyle.Regular);
             richTextBox1.AppendText("Jhuliani Cristina Amorim dos Santos\n");
-            richTextBox1.SelectionFont = new Font("Bahnschrift", 14, FontStyle.Regular);
+            richTextBox1.SelectionFont = new Font("Bahnschrift", 16, FontStyle.Regular);
             richTextBox1.AppendText("Tauani Vitória Ferreira\n");
 
             richTextBox1.SelectionStart = 0;

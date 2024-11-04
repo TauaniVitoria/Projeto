@@ -223,5 +223,17 @@
   <ItemGroup>
     <None Include="imagens\love-letter_15736379.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iceberg-bro %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taking care of the Earth.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 12 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B12.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

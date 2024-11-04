@@ -32,14 +32,15 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelMenu1 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panelMenu2 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
@@ -49,7 +50,6 @@
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel10 = new System.Windows.Forms.Panel();
             this.bntCreditos = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -58,11 +58,12 @@
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panelMenu2.SuspendLayout();
+            this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,21 +94,11 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.label1);
+            this.panel7.Controls.Add(this.pictureBox4);
             this.panel7.Location = new System.Drawing.Point(3, 59);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(363, 41);
             this.panel7.TabIndex = 20;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(141, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "MENU PRINCIPAL";
             // 
             // panel3
             // 
@@ -156,6 +147,17 @@
             this.panelMenu2.Size = new System.Drawing.Size(364, 85);
             this.panelMenu2.TabIndex = 15;
             // 
+            // panel10
+            // 
+            this.panel10.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.panel10.Controls.Add(this.bntCreditos);
+            this.panel10.Location = new System.Drawing.Point(3, 568);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(363, 80);
+            this.panel10.TabIndex = 21;
+            this.panel10.Resize += new System.EventHandler(this.panel10_Resize);
+            // 
             // panel4
             // 
             this.panel4.Location = new System.Drawing.Point(3, 360);
@@ -169,6 +171,16 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(254, 78);
             this.panel2.TabIndex = 16;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.Group_12__1_;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(49, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(253, 35);
+            this.pictureBox4.TabIndex = 20;
+            this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -309,17 +321,6 @@
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
-            // panel10
-            // 
-            this.panel10.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.panel10.Controls.Add(this.bntCreditos);
-            this.panel10.Location = new System.Drawing.Point(3, 568);
-            this.panel10.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(363, 80);
-            this.panel10.TabIndex = 21;
-            this.panel10.Resize += new System.EventHandler(this.panel10_Resize);
-            // 
             // bntCreditos
             // 
             this.bntCreditos.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -350,17 +351,17 @@
             this.Load += new System.EventHandler(this.Pag_Principal_Load_1);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panelMenu1.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panelMenu2.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).EndInit();
             this.ResumeLayout(false);
 
@@ -384,10 +385,10 @@
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel9;
         private FontAwesome.Sharp.IconButton iconButton2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.PictureBox bntCreditos;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
