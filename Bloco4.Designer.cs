@@ -1148,7 +1148,7 @@
             this.resultado.BackColor = System.Drawing.Color.Transparent;
             this.resultado.Font = new System.Drawing.Font("Bahnschrift", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resultado.ForeColor = System.Drawing.Color.Teal;
-            this.resultado.Location = new System.Drawing.Point(672, 2660);
+            this.resultado.Location = new System.Drawing.Point(673, 2647);
             this.resultado.Name = "resultado";
             this.resultado.Padding = new System.Windows.Forms.Padding(0, 0, 0, 20);
             this.resultado.Size = new System.Drawing.Size(224, 59);
@@ -1180,7 +1180,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Bahnschrift SemiBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(243, 2660);
+            this.label4.Location = new System.Drawing.Point(244, 2652);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(423, 33);
             this.label4.TabIndex = 63;

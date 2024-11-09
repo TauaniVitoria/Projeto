@@ -30,41 +30,41 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pag_Principal));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panelMenu1 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panelMenu2 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.panelMenu1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.panelMenu2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.bntCreditos = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
             this.panelMenu1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panelMenu2.SuspendLayout();
-            this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -84,6 +84,18 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(367, 747);
             this.flowLayoutPanel1.TabIndex = 14;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // panel1
             // 
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -100,78 +112,6 @@
             this.panel7.Size = new System.Drawing.Size(363, 41);
             this.panel7.TabIndex = 20;
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Teal;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.iconButton1);
-            this.panel3.Location = new System.Drawing.Point(3, 106);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(364, 84);
-            this.panel3.TabIndex = 19;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // panelMenu1
-            // 
-            this.panelMenu1.Controls.Add(this.button1);
-            this.panelMenu1.Controls.Add(this.button2);
-            this.panelMenu1.Location = new System.Drawing.Point(3, 196);
-            this.panelMenu1.Name = "panelMenu1";
-            this.panelMenu1.Size = new System.Drawing.Size(364, 95);
-            this.panelMenu1.TabIndex = 17;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Teal;
-            this.panel8.Controls.Add(this.button3);
-            this.panel8.Location = new System.Drawing.Point(3, 297);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(364, 84);
-            this.panel8.TabIndex = 20;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.Teal;
-            this.panel9.Controls.Add(this.iconButton2);
-            this.panel9.Location = new System.Drawing.Point(3, 387);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(364, 84);
-            this.panel9.TabIndex = 20;
-            // 
-            // panelMenu2
-            // 
-            this.panelMenu2.Controls.Add(this.pictureBox2);
-            this.panelMenu2.Controls.Add(this.pictureBox6);
-            this.panelMenu2.Location = new System.Drawing.Point(3, 477);
-            this.panelMenu2.Name = "panelMenu2";
-            this.panelMenu2.Size = new System.Drawing.Size(364, 85);
-            this.panelMenu2.TabIndex = 15;
-            // 
-            // panel10
-            // 
-            this.panel10.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.panel10.Controls.Add(this.bntCreditos);
-            this.panel10.Location = new System.Drawing.Point(3, 568);
-            this.panel10.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(363, 80);
-            this.panel10.TabIndex = 21;
-            this.panel10.Resize += new System.EventHandler(this.panel10_Resize);
-            // 
-            // panel4
-            // 
-            this.panel4.Location = new System.Drawing.Point(3, 360);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(254, 70);
-            this.panel4.TabIndex = 18;
-            // 
-            // panel2
-            // 
-            this.panel2.Location = new System.Drawing.Point(3, 440);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(254, 78);
-            this.panel2.TabIndex = 16;
-            // 
             // pictureBox4
             // 
             this.pictureBox4.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.Group_12__1_;
@@ -182,29 +122,16 @@
             this.pictureBox4.TabIndex = 20;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox3
+            // panel3
             // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Image = global::WindowsFormsApp2.Properties.Resources.World_water_day__2_;
-            this.pictureBox3.Location = new System.Drawing.Point(470, 88);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(516, 488);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_2);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.panel3.BackColor = System.Drawing.Color.Teal;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.iconButton1);
+            this.panel3.Location = new System.Drawing.Point(3, 106);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(364, 84);
+            this.panel3.TabIndex = 19;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // iconButton1
             // 
@@ -225,6 +152,15 @@
             this.iconButton1.TabIndex = 0;
             this.iconButton1.UseVisualStyleBackColor = true;
             this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // panelMenu1
+            // 
+            this.panelMenu1.Controls.Add(this.button1);
+            this.panelMenu1.Controls.Add(this.button2);
+            this.panelMenu1.Location = new System.Drawing.Point(3, 196);
+            this.panelMenu1.Name = "panelMenu1";
+            this.panelMenu1.Size = new System.Drawing.Size(364, 95);
+            this.panelMenu1.TabIndex = 17;
             // 
             // button1
             // 
@@ -260,6 +196,15 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Teal;
+            this.panel8.Controls.Add(this.button3);
+            this.panel8.Location = new System.Drawing.Point(3, 297);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(364, 84);
+            this.panel8.TabIndex = 20;
+            // 
             // button3
             // 
             this.button3.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.B5_dicas2;
@@ -276,6 +221,15 @@
             this.button3.TabIndex = 17;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.Teal;
+            this.panel9.Controls.Add(this.iconButton2);
+            this.panel9.Location = new System.Drawing.Point(3, 387);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(364, 84);
+            this.panel9.TabIndex = 20;
             // 
             // iconButton2
             // 
@@ -296,6 +250,15 @@
             this.iconButton2.TabIndex = 0;
             this.iconButton2.UseVisualStyleBackColor = true;
             this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
+            // 
+            // panelMenu2
+            // 
+            this.panelMenu2.Controls.Add(this.pictureBox2);
+            this.panelMenu2.Controls.Add(this.pictureBox6);
+            this.panelMenu2.Location = new System.Drawing.Point(3, 477);
+            this.panelMenu2.Name = "panelMenu2";
+            this.panelMenu2.Size = new System.Drawing.Size(364, 85);
+            this.panelMenu2.TabIndex = 15;
             // 
             // pictureBox2
             // 
@@ -321,6 +284,17 @@
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
+            // panel10
+            // 
+            this.panel10.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.panel10.Controls.Add(this.bntCreditos);
+            this.panel10.Location = new System.Drawing.Point(3, 568);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(363, 80);
+            this.panel10.TabIndex = 21;
+            this.panel10.Resize += new System.EventHandler(this.panel10_Resize);
+            // 
             // bntCreditos
             // 
             this.bntCreditos.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -334,12 +308,38 @@
             this.bntCreditos.TabStop = false;
             this.bntCreditos.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(3, 360);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(254, 70);
+            this.panel4.TabIndex = 18;
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(3, 440);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(254, 78);
+            this.panel2.TabIndex = 16;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Image = global::WindowsFormsApp2.Properties.Resources.World_water_day__2_;
+            this.pictureBox3.Location = new System.Drawing.Point(470, 88);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(516, 488);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_2);
+            // 
             // Pag_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(984, 649);
+            this.ClientSize = new System.Drawing.Size(984, 661);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel4);
@@ -350,19 +350,19 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Pag_Principal_Load_1);
             this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panelMenu1.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panelMenu2.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
