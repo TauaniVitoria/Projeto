@@ -16,9 +16,64 @@ namespace WindowsFormsApp2
         public Bloco01()
         {
             InitializeComponent();
-            label1.Focus();
-            pictureBox1.Focus();
+
+            // Configurar todos os RichTextBoxes
+            ConfigureRichTextBoxes();
+
+            this.AutoScrollPosition = new Point(0, 0);
+
+
         }
+
+        private void ConfigureRichTextBoxes()
+        {
+            // Lista de todos os RichTextBoxes do form
+            var richTextBoxes = new[]
+            {
+            richTextBox1, richTextBox2, richTextBox3,
+            richTextBox4, richTextBox5, richTextBox6
+        };
+
+            foreach (var rtb in richTextBoxes)
+            {
+                // Desabilitar edição
+                rtb.ReadOnly = true;
+
+                // Remover o cursor e a seleção
+                rtb.GotFocus += (s, e) => ActiveControl = null;
+
+                // Configurar o cursor para que não apareça
+                rtb.Cursor = Cursors.Default;
+
+                // Definir cor de fundo como branca mesmo em ReadOnly
+                rtb.BackColor = Color.White;
+
+                // Pegar o RTF atual
+                string rtfAtual = rtb.Rtf;
+
+                // Substituir o alinhamento padrão por justificado
+                rtfAtual = rtfAtual.Replace(@"\ql", @"\qj");
+
+                // Se não encontrou \ql, adiciona \qj após cada \pard
+                if (!rtfAtual.Contains(@"\qj"))
+                {
+                    rtfAtual = rtfAtual.Replace(@"\pard", @"\pard\qj");
+                }
+
+                // Aplicar o RTF modificado
+                rtb.Rtf = rtfAtual;
+
+                // Remove a seleção
+                rtb.SelectionLength = 0;
+            }
+        }
+
+        private void Bloco01_Load(object sender, EventArgs e)
+        {
+           
+            
+        }
+
 
         // Fecha o form, voltando para form1
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -26,10 +81,6 @@ namespace WindowsFormsApp2
             this.Close();
         }
 
-        private void Bloco01_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
