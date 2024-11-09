@@ -20,8 +20,7 @@ namespace WindowsFormsApp2
             // Configurar todos os RichTextBoxes
             ConfigureRichTextBoxes();
 
-            this.AutoScrollPosition = new Point(0, 0);
-
+            ScrollToTop();
 
         }
 
@@ -48,6 +47,7 @@ namespace WindowsFormsApp2
                 // Definir cor de fundo como branca mesmo em ReadOnly
                 rtb.BackColor = Color.White;
 
+
                 // Pegar o RTF atual
                 string rtfAtual = rtb.Rtf;
 
@@ -68,10 +68,39 @@ namespace WindowsFormsApp2
             }
         }
 
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            // Criar um timer para forçar o scroll para o topo após o form carregar
+            Timer timer = new Timer();
+            timer.Interval = 1;
+            timer.Tick += (s, args) =>
+            {
+                this.AutoScrollPosition = new Point(0, 0);
+                this.VerticalScroll.Value = 0;
+
+                // Focar no primeiro controle (pictureBox1)
+                if (pictureBox1 != null)
+                    pictureBox1.Focus();
+
+                timer.Stop();
+                timer.Dispose();
+            };
+            timer.Start();
+        }
+
+        private void ScrollToTop()
+        {
+            // Reseta a posição do scroll
+            this.VerticalScroll.Value = 0;
+            this.AutoScrollPosition = new Point(0, 0);
+        }
+
         private void Bloco01_Load(object sender, EventArgs e)
         {
-           
-            
+            ScrollToTop();
+
         }
 
 
