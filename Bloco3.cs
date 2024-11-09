@@ -20,6 +20,8 @@ namespace WindowsFormsApp2
             // Associar os eventos corretamente
             pictureBox1.MouseEnter += PictureBox1_MouseEnter;
             pictureBox1.MouseLeave += PictureBox1_MouseLeave;
+
+            ConfigureRichTextBoxes();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -30,6 +32,51 @@ namespace WindowsFormsApp2
         private void Bloco3_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void ConfigureRichTextBoxes()
+        {
+            // Lista de todos os RichTextBoxes do form
+            var richTextBoxes = new[]
+            {
+            richTextBox1, richTextBox2, richTextBox3,
+            richTextBox4, richTextBox5, richTextBox6,
+            richTextBox7, richTextBox8, richTextBox9
+        };
+
+            foreach (var rtb in richTextBoxes)
+            {
+                // Desabilitar edição
+                rtb.ReadOnly = true;
+
+                // Remover o cursor e a seleção
+                rtb.GotFocus += (s, e) => ActiveControl = null;
+
+                // Configurar o cursor para que não apareça
+                rtb.Cursor = Cursors.Default;
+
+                // Definir cor de fundo como branca mesmo em ReadOnly
+                rtb.BackColor = Color.White;
+
+
+                // Pegar o RTF atual
+                string rtfAtual = rtb.Rtf;
+
+                // Substituir o alinhamento padrão por justificado
+                rtfAtual = rtfAtual.Replace(@"\ql", @"\qj");
+
+                // Se não encontrou \ql, adiciona \qj após cada \pard
+                if (!rtfAtual.Contains(@"\qj"))
+                {
+                    rtfAtual = rtfAtual.Replace(@"\pard", @"\pard\qj");
+                }
+
+                // Aplicar o RTF modificado
+                rtb.Rtf = rtfAtual;
+
+                // Remove a seleção
+                rtb.SelectionLength = 0;
+            }
         }
 
         // Quando o mouse entra na área do PictureBox

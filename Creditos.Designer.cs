@@ -87,6 +87,7 @@
             // 
             this.richTextBox1.BackColor = System.Drawing.Color.White;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.richTextBox1.Location = new System.Drawing.Point(164, 172);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;

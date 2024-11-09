@@ -49,6 +49,12 @@ namespace WindowsFormsApp2
 
             richTextBox1.SelectionStart = 0;
             richTextBox1.ScrollToCaret();
+
+            // Remover o cursor e a seleção
+            richTextBox1.GotFocus += (s, b) => ActiveControl = null;
+
+            // Configurar o cursor para que não apareça
+            richTextBox1.Cursor = Cursors.Default;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
