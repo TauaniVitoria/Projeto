@@ -16,9 +16,6 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
 
-            // Associar os eventos corretamente
-            pictureBox3.MouseEnter += PictureBox1_MouseEnter;
-            pictureBox3.MouseLeave += PictureBox1_MouseLeave;
         }
 
         private void Creditos_Load(object sender, EventArgs e)
@@ -62,22 +59,7 @@ namespace WindowsFormsApp2
             this.Close();
         }
 
-        // Quando o mouse entra na área do PictureBox
-        private void PictureBox1_MouseEnter(object sender, EventArgs e)
-        {
-            // Simular o efeito de destaque aumentando o PictureBox
-            pictureBox3.Size = new Size(pictureBox3.Width + 10, pictureBox3.Height + 10);
-            //pictureBox1.BorderStyle = BorderStyle.FixedSingle; // Adiciona uma borda
-        }
-
-        // Quando o mouse sai da área do PictureBox
-        private void PictureBox1_MouseLeave(object sender, EventArgs e)
-        {
-            // Restaurar o tamanho original
-            pictureBox3.Size = new Size(pictureBox3.Width - 10, pictureBox3.Height - 10);
-            //pictureBox1.BorderStyle = BorderStyle.None; // Remove a borda
-        }
-
+     
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             

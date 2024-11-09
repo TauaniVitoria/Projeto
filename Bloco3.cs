@@ -17,9 +17,6 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
 
-            // Associar os eventos corretamente
-            pictureBox1.MouseEnter += PictureBox1_MouseEnter;
-            pictureBox1.MouseLeave += PictureBox1_MouseLeave;
 
             ConfigureRichTextBoxes();
         }
@@ -77,22 +74,6 @@ namespace WindowsFormsApp2
                 // Remove a seleção
                 rtb.SelectionLength = 0;
             }
-        }
-
-        // Quando o mouse entra na área do PictureBox
-        private void PictureBox1_MouseEnter(object sender, EventArgs e)
-        {
-            // Simular o efeito de destaque aumentando o PictureBox
-            pictureBox1.Size = new Size(pictureBox1.Width + 10, pictureBox1.Height + 10);
-            //pictureBox1.BorderStyle = BorderStyle.FixedSingle; // Adiciona uma borda
-        }
-
-        // Quando o mouse sai da área do PictureBox
-        private void PictureBox1_MouseLeave(object sender, EventArgs e)
-        {
-            // Restaurar o tamanho original
-            pictureBox1.Size = new Size(pictureBox1.Width - 10, pictureBox1.Height - 10);
-            //pictureBox1.BorderStyle = BorderStyle.None; // Remove a borda
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
