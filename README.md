@@ -1,9 +1,5 @@
 # 💧 Água: O Elemento Essencial para a Vida
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
-![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2+-orange.svg)
-
 ## 📝 Descrição
 Este projeto é uma aplicação Windows Forms desenvolvida em C# que apresenta uma interface interativa sobre a importância da água para a vida. 
 
