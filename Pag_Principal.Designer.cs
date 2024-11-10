@@ -326,9 +326,9 @@
             // 
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox3.Image = global::WindowsFormsApp2.Properties.Resources.World_water_day__2_;
-            this.pictureBox3.Location = new System.Drawing.Point(470, 88);
+            this.pictureBox3.Location = new System.Drawing.Point(435, 88);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(516, 488);
+            this.pictureBox3.Size = new System.Drawing.Size(551, 529);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 19;
             this.pictureBox3.TabStop = false;

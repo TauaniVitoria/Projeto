@@ -156,7 +156,7 @@
             // 
             this.title4.AutoSize = true;
             this.title4.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title4.Location = new System.Drawing.Point(12, 1172);
+            this.title4.Location = new System.Drawing.Point(12, 1054);
             this.title4.Name = "title4";
             this.title4.Size = new System.Drawing.Size(447, 25);
             this.title4.TabIndex = 11;
@@ -166,7 +166,7 @@
             // 
             this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox5.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox5.Location = new System.Drawing.Point(17, 1200);
+            this.richTextBox5.Location = new System.Drawing.Point(17, 1082);
             this.richTextBox5.Name = "richTextBox5";
             this.richTextBox5.Size = new System.Drawing.Size(943, 81);
             this.richTextBox5.TabIndex = 10;
@@ -176,7 +176,7 @@
             // 
             this.title5.AutoSize = true;
             this.title5.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title5.Location = new System.Drawing.Point(12, 1284);
+            this.title5.Location = new System.Drawing.Point(12, 1166);
             this.title5.Name = "title5";
             this.title5.Size = new System.Drawing.Size(245, 25);
             this.title5.TabIndex = 13;
@@ -186,7 +186,7 @@
             // 
             this.richTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox6.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox6.Location = new System.Drawing.Point(17, 1312);
+            this.richTextBox6.Location = new System.Drawing.Point(17, 1194);
             this.richTextBox6.Name = "richTextBox6";
             this.richTextBox6.Size = new System.Drawing.Size(943, 76);
             this.richTextBox6.TabIndex = 12;
@@ -196,7 +196,7 @@
             // 
             this.title6.AutoSize = true;
             this.title6.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title6.Location = new System.Drawing.Point(12, 1391);
+            this.title6.Location = new System.Drawing.Point(12, 1273);
             this.title6.Name = "title6";
             this.title6.Size = new System.Drawing.Size(420, 25);
             this.title6.TabIndex = 17;
@@ -206,7 +206,7 @@
             // 
             this.richTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox7.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox7.Location = new System.Drawing.Point(17, 1419);
+            this.richTextBox7.Location = new System.Drawing.Point(17, 1301);
             this.richTextBox7.Name = "richTextBox7";
             this.richTextBox7.Size = new System.Drawing.Size(941, 190);
             this.richTextBox7.TabIndex = 16;
@@ -216,7 +216,7 @@
             // 
             this.title7.AutoSize = true;
             this.title7.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title7.Location = new System.Drawing.Point(12, 1612);
+            this.title7.Location = new System.Drawing.Point(12, 1494);
             this.title7.Name = "title7";
             this.title7.Size = new System.Drawing.Size(256, 25);
             this.title7.TabIndex = 19;
@@ -226,7 +226,7 @@
             // 
             this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox8.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox8.Location = new System.Drawing.Point(17, 1640);
+            this.richTextBox8.Location = new System.Drawing.Point(17, 1522);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.Size = new System.Drawing.Size(941, 82);
             this.richTextBox8.TabIndex = 18;
@@ -236,7 +236,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 1725);
+            this.label5.Location = new System.Drawing.Point(12, 1607);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(109, 25);
             this.label5.TabIndex = 21;
@@ -246,7 +246,7 @@
             // 
             this.richTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox9.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox9.Location = new System.Drawing.Point(17, 1753);
+            this.richTextBox9.Location = new System.Drawing.Point(17, 1635);
             this.richTextBox9.Name = "richTextBox9";
             this.richTextBox9.Size = new System.Drawing.Size(928, 79);
             this.richTextBox9.TabIndex = 20;
@@ -256,7 +256,7 @@
             // 
             this.richTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox10.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox10.Location = new System.Drawing.Point(12, 2141);
+            this.richTextBox10.Location = new System.Drawing.Point(12, 2023);
             this.richTextBox10.Name = "richTextBox10";
             this.richTextBox10.Size = new System.Drawing.Size(855, 28);
             this.richTextBox10.TabIndex = 24;
@@ -266,6 +266,7 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Location = new System.Drawing.Point(1, 1);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox1.Name = "pictureBox1";
@@ -280,7 +281,7 @@
             this.pictureBox3.Image = global::WindowsFormsApp2.Properties.Resources.People_taking_care_of_plants;
             this.pictureBox3.Location = new System.Drawing.Point(468, 762);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(470, 399);
+            this.pictureBox3.Size = new System.Drawing.Size(255, 255);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 23;
             this.pictureBox3.TabStop = false;
@@ -290,9 +291,9 @@
             // 
             this.pictureBox2.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.At_the_bathroom_amico;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(59, 751);
+            this.pictureBox2.Location = new System.Drawing.Point(127, 775);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(373, 384);
+            this.pictureBox2.Size = new System.Drawing.Size(255, 255);
             this.pictureBox2.TabIndex = 22;
             this.pictureBox2.TabStop = false;
             // 
@@ -304,7 +305,7 @@
             this.linkLabel8.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel8.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel8.LinkVisited = true;
-            this.linkLabel8.Location = new System.Drawing.Point(14, 2120);
+            this.linkLabel8.Location = new System.Drawing.Point(14, 2002);
             this.linkLabel8.Name = "linkLabel8";
             this.linkLabel8.Size = new System.Drawing.Size(404, 18);
             this.linkLabel8.TabIndex = 32;
@@ -320,7 +321,7 @@
             this.linkLabel7.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel7.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel7.LinkVisited = true;
-            this.linkLabel7.Location = new System.Drawing.Point(14, 2085);
+            this.linkLabel7.Location = new System.Drawing.Point(14, 1967);
             this.linkLabel7.Name = "linkLabel7";
             this.linkLabel7.Size = new System.Drawing.Size(330, 18);
             this.linkLabel7.TabIndex = 31;
@@ -336,7 +337,7 @@
             this.linkLabel6.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel6.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel6.LinkVisited = true;
-            this.linkLabel6.Location = new System.Drawing.Point(14, 2052);
+            this.linkLabel6.Location = new System.Drawing.Point(14, 1934);
             this.linkLabel6.Name = "linkLabel6";
             this.linkLabel6.Size = new System.Drawing.Size(331, 18);
             this.linkLabel6.TabIndex = 30;
@@ -352,7 +353,7 @@
             this.linkLabel5.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel5.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel5.LinkVisited = true;
-            this.linkLabel5.Location = new System.Drawing.Point(14, 2019);
+            this.linkLabel5.Location = new System.Drawing.Point(14, 1901);
             this.linkLabel5.Name = "linkLabel5";
             this.linkLabel5.Size = new System.Drawing.Size(373, 18);
             this.linkLabel5.TabIndex = 29;
@@ -368,7 +369,7 @@
             this.linkLabel4.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel4.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel4.LinkVisited = true;
-            this.linkLabel4.Location = new System.Drawing.Point(14, 1985);
+            this.linkLabel4.Location = new System.Drawing.Point(14, 1867);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(311, 18);
             this.linkLabel4.TabIndex = 28;
@@ -384,7 +385,7 @@
             this.linkLabel3.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel3.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel3.LinkVisited = true;
-            this.linkLabel3.Location = new System.Drawing.Point(14, 1950);
+            this.linkLabel3.Location = new System.Drawing.Point(14, 1832);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(344, 18);
             this.linkLabel3.TabIndex = 27;
@@ -400,7 +401,7 @@
             this.linkLabel2.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel2.LinkVisited = true;
-            this.linkLabel2.Location = new System.Drawing.Point(14, 1918);
+            this.linkLabel2.Location = new System.Drawing.Point(14, 1800);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(433, 18);
             this.linkLabel2.TabIndex = 26;
@@ -416,7 +417,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel1.LinkVisited = true;
-            this.linkLabel1.Location = new System.Drawing.Point(14, 1884);
+            this.linkLabel1.Location = new System.Drawing.Point(14, 1766);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(394, 18);
             this.linkLabel1.TabIndex = 25;
@@ -428,7 +429,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 1844);
+            this.label1.Location = new System.Drawing.Point(13, 1726);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 25);
             this.label1.TabIndex = 33;
