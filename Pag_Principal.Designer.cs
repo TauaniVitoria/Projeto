@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pag_Principal));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -46,13 +45,13 @@
             this.panelMenu2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.bntCreditos = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bntCreditos = new System.Windows.Forms.PictureBox();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
@@ -62,9 +61,9 @@
             this.panelMenu2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -83,18 +82,6 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(367, 747);
             this.flowLayoutPanel1.TabIndex = 14;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel1
             // 
@@ -284,30 +271,6 @@
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
-            // panel10
-            // 
-            this.panel10.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.panel10.Controls.Add(this.bntCreditos);
-            this.panel10.Location = new System.Drawing.Point(3, 568);
-            this.panel10.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(363, 80);
-            this.panel10.TabIndex = 21;
-            this.panel10.Resize += new System.EventHandler(this.panel10_Resize);
-            // 
-            // bntCreditos
-            // 
-            this.bntCreditos.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.bntCreditos.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.love_letter_15736379;
-            this.bntCreditos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.bntCreditos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bntCreditos.Location = new System.Drawing.Point(127, 12);
-            this.bntCreditos.Name = "bntCreditos";
-            this.bntCreditos.Size = new System.Drawing.Size(80, 68);
-            this.bntCreditos.TabIndex = 13;
-            this.bntCreditos.TabStop = false;
-            this.bntCreditos.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
             // panel4
             // 
             this.panel4.Location = new System.Drawing.Point(3, 360);
@@ -334,24 +297,58 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_2);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // bntCreditos
+            // 
+            this.bntCreditos.BackColor = System.Drawing.Color.Teal;
+            this.bntCreditos.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.love_letter_15736379;
+            this.bntCreditos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bntCreditos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bntCreditos.Location = new System.Drawing.Point(132, 580);
+            this.bntCreditos.Name = "bntCreditos";
+            this.bntCreditos.Size = new System.Drawing.Size(80, 68);
+            this.bntCreditos.TabIndex = 13;
+            this.bntCreditos.TabStop = false;
+            this.bntCreditos.Click += new System.EventHandler(this.pictureBox7_Click);
+            // 
+            // panel10
+            // 
+            this.panel10.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.panel10.Location = new System.Drawing.Point(3, 568);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(363, 80);
+            this.panel10.TabIndex = 21;
+            this.panel10.Resize += new System.EventHandler(this.panel10_Resize);
+            // 
             // Pag_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(984, 661);
+            this.Controls.Add(this.bntCreditos);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Pag_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Pag_Principal_Load_1);
             this.flowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel3.ResumeLayout(false);
@@ -361,15 +358,14 @@
             this.panelMenu2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bntCreditos)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
@@ -388,8 +384,9 @@
         private FontAwesome.Sharp.IconButton iconButton2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.PictureBox bntCreditos;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox bntCreditos;
+        private System.Windows.Forms.Panel panel10;
     }
 }
