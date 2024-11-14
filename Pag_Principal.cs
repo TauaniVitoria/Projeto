@@ -285,7 +285,10 @@ namespace WindowsFormsApp2
             
         }
 
-        
-
+        // Botão sair
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
